@@ -1,0 +1,46 @@
+baseurl = "https://AOngaro3.github.io/"
+languageCode = "en-us"
+theme = "hugo-theme-terminal"
+paginate = 5
+publishDir = "../AOngaro3.github.io"
+
+[params]
+  contentTypeName = "post"
+  themeColor = "orange"
+  showMenuItems = 2
+
+[languages]
+  [languages.en]
+    title = "MyBlog"
+    subtitle = "Blog"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Andrea.Ongaro"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "works"
+        name = "Works"
+        url = "/works"
+      [[languages.en.menu.main]]
+        identifier = "contacts"
+        name = "Contacts"
+        url = "/contacts"
+       [[languages.en.menu.main]]
+        identifier = "Linkedin"
+        name = "Linkedin"
+        url = "https://www.linkedin.com/in/andrea-ongaro-219a72a8" 
+      [[languages.en.menu.main]]
+        identifier = "GitHub"
+        name = "GitHub"
+        url = "https://github.com/AOngaro3" 
